@@ -5,9 +5,9 @@
 Fruits=("Apple" "Kiwi" "grapes" "orange") #Array
 
 echo "first fruit is: ${fruits[0]}"
-echo "second fruit is: ${fruit[1]}"
-echo "third fruit is: ${fruit[2]}"
-echo "fourth fruit is: ${fruit[3]}"
+echo "second fruit is: ${fruits[1]}"
+echo "third fruit is: ${fruits[2]}"
+echo "fourth fruit is: ${fruits[3]}"
 
 
-echo "all fruits is: ${fruit[@]}"
+echo "all fruits is: ${fruits[@]}"
