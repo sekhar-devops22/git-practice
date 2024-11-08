@@ -26,3 +26,21 @@ then
     else
         echo "git is already installed nothing to do it"
 fi
+
+dnf list installed mysql
+
+if [ S? -ne 0 ]
+then  
+    echo "mysql in not installed going to install it"
+    dnf install mysql -y
+    if [ $? -ne 0 ] 
+    then
+        echo "mysql installation is not sucess check it"
+        exit 1
+    else
+        echo "mysql installation is sucess"
+    fi
+    else
+        echo "mysql is alreay installed"
+fi
+
