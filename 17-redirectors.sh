@@ -32,7 +32,7 @@ VALIDATE(){
 }
 
 USAGE(){
-    echo -e "$R Usage: $N sudo sh 16-redirectors.sh package1 package2 ..."
+    echo -e "$R Usage: $N sudo sh 17-redirectors.sh package1 package2 ..."
     exit 1
 }
 
